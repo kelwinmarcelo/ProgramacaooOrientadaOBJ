@@ -1,4 +1,4 @@
-package br.com.Projetinho;
+package br.com.Concessionaria;
 
 public class Cliente {
     private String nome;
