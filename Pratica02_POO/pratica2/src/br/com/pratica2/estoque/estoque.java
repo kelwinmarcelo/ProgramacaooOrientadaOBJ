@@ -1,3 +1,4 @@
+package br.com.pratica2.estoque;
 public class estoque {
     private String nome;
     private int qtdAtual;
