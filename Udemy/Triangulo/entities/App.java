@@ -5,12 +5,15 @@ public class App {
         Scanner ler = new Scanner(System.in);
         Triangulo x, y;
         x = new Triangulo();
+        // instanciando o objeto com new ..()
         y = new Triangulo();
 
         System.out.println("Entre com as medidas do triângulo X: ");
         x.a = ler.nextDouble();
         x.b = ler.nextDouble();
         x.c = ler.nextDouble();
+        // Isso "x.a" faz a leitura dos dados e armazena em cada um dos atributos
+        // do objeto x
         System.out.println("Entre com as medidas do Triângulo Y: ");
         y.a = ler.nextDouble();
         y.b = ler.nextDouble();
